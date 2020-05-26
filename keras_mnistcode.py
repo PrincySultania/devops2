@@ -10,3 +10,5 @@ print("it should run")
 print("it is running")
 
 print(...)
+
+print('!')
