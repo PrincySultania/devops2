@@ -16,6 +16,7 @@ print("i think its done")
 print("Its almost there")
 print("finally its done")
 accuracy=1
+
 out=open('/deeplearning/output.html','r+')
 out.read()
 out.write('Accuracy achieved:')
@@ -24,5 +25,3 @@ out.close()
 print("iiiii")
 print("...")
 print("done")
-
-print("!!!")
