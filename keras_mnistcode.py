@@ -16,7 +16,7 @@ print("i think its done")
 print("Its almost there")
 print("finally its done")
 accuracy=97.1
-out=open('/ws3/output.html','r+')
+out=open('/deeplearning/output.html','r+')
 out.read()
 out.write('Accuracy achieved:' + 'str(accuracy)')
 out.close()
