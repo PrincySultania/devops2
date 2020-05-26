@@ -24,3 +24,5 @@ print("what to do")
 print("hopefully")
 
 print("ho jao na plsss")
+
+print("new")
