@@ -18,5 +18,6 @@ print("finally its done")
 accuracy=97.1
 out=open('/deeplearning/output.html','r+')
 out.read()
-out.write('Accuracy achieved:' +accuracy)
+out.write('Accuracy achieved:')
+out.write(accuracy)
 out.close()
