@@ -8,7 +8,13 @@ from keras import backend as K
 batch_size = 128
 num_classes = 10
 epochs = 1
+b = open('/deeplearning/inoutepoch.txt','r')
+epochs = int(b.read())
+b.close()
 
+a = open('/deeplearning/inoutepoch.txt','w')
+a.write(int(epochs))
+a.close()
 # input image dimensions
 img_rows, img_cols = 28, 28
 # the data, split between train and test sets
@@ -62,8 +68,6 @@ out.read()
 out.write('\nAccuracy achieved:')
 out.write(str(score[1]))
 out.close()
-print("done")
 
-print("done")
 
 print("done")
